@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['left arrow', 'right arrow', 'up arrow']
+
+roboflow:
+  workspace: project-s0shx
+  project: arrow-detection-iautt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-s0shx/arrow-detection-iautt/dataset/1
